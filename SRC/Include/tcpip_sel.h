@@ -1,13 +1,16 @@
 /*
- * grip_defaults.h
+ * tcpip_sel.h
  *
  *  Created on: Jun 5, 2012
  *      Author: mpoppe
  */
 
-#ifndef GRIP_DEFAULTS_H_
-#define GRIP_DEFAULTS_H_
+#ifndef TCPIP_SEL_H_
+#define TCPIP_SEL_H_
+
+#ifdef USE_LWIP
 
 
 
-#endif /* GRIP_DEFAULTS_H_ */
+
+#endif /* TCPIP_SEL_H_ */

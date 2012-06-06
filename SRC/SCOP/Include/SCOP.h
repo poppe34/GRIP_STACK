@@ -8,6 +8,8 @@
 #ifndef SCOP_H_
 #define SCOP_H_
 
+#include "GRIP.h"
+
 /*
  *   Constants
  */

@@ -13,7 +13,7 @@
 #define SYS_DBG_DISPLAY_FUNC(message)
 
 #define GRIP_DBG_LEVEL_ALL     0x00
-#define GRIP_DBG_LEVEL_OFF     GRIP_DBG_LEVEL_ALL /* compatibility define only */
+#define GRIP_DBG_LEVEL_OFF     0x03 /* compatibility define only */
 #define GRIP_DBG_LEVEL_WARNING 0x01 /* bad checksums, dropped packets, ... */
 #define GRIP_DBG_LEVEL_SERIOUS 0x02 /* memory allocation failures, ... */
 #define GRIP_DBG_LEVEL_SEVERE  0x03
