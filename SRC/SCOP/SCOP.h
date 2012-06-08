@@ -8,7 +8,8 @@
 #ifndef SCOP_H_
 #define SCOP_H_
 
-#include "GRIP.h"
+#include <stdint.h>
+
 
 /*
  *   Constants
@@ -28,7 +29,9 @@
 #define scopMaxConnections_default 			1
 #define scopMaxConnectionDuration_default	0
 
-
+/*
+ * Error Codes
+ */
 typedef enum scop_errCode_e
 {
 	scop_success = 0x0000,
@@ -57,5 +60,9 @@ typedef enum scop_errCode_e
 	scop_unsupported_attribute = 0x0024,
 	scop_invalid_parameter = 0x0025,
 }scop_errCode_t;
+
+
+
+
 
 #endif /* SCOP_H_ */
